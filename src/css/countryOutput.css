@@ -1,0 +1,48 @@
+
+.country-box{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: auto;
+    padding:40px;
+    background-color: rgba(255, 255, 255, 0.12);
+    border: 1px solid;
+    border-radius: 35px;
+    border-color: rgb(182, 37, 214);
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+}
+
+.country-box-upper-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.country-flag{
+    font-size: 10rem;
+    margin-right: 20px;
+}
+.country-details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.country-box-lower-section{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+}
+
+
+
+.country-box p{
+    font-size: 1.5rem;
+    padding: 10px 0px 10px 0px
+}
